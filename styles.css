@@ -1,0 +1,69 @@
+body {
+    font-family: Garamond, sans-serif;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/home-hero.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image > h1 {
+    font-size: 48px;
+}
+
+.recipes-home {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.recipe-tile {
+    display: flex;
+    width: 30%;
+    height: 200px;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-tile > a {
+    background-color: hsla(0, 0%, 100%, 0.7);
+    padding: 10px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.recipe-tile > a:hover {
+    color: salmon;
+}
+
+#lasagna {
+    background-image: url(img/lasagna2.jpg);
+    background-size: cover;
+}
+
+#parmigiana {
+    background-image: url(img/parm2.jpg);
+    background-size: cover;
+}
+
+#brownies {
+    background-image: url(img/brownie2.jpg);
+    background-size: cover;
+}
+
+.recipe-page {
+    margin: 20px;
+}
+
+.recipe-page-img {
+    width: 400px;
+    height: 100%;
+}
