@@ -31,6 +31,10 @@ body {
     align-items: center;
 }
 
+.recipe-tile:hover {
+    box-shadow: 12px 12px 2px 1px pink;
+}
+
 .recipe-tile > a {
     background-color: hsla(0, 0%, 100%, 0.7);
     padding: 10px;
