@@ -1,5 +1,5 @@
 body {
-    font-family: Garamond, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .hero-image {
@@ -10,10 +10,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .hero-image > h1 {
     font-size: 48px;
+}
+
+.about-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .recipes-home {
