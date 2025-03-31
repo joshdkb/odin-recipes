@@ -1,7 +1,20 @@
 * {
-    font-family: "Lato", sans-serif
+    font-family: "Lato", sans-serif;
 }
 
-h1 {
+h1, h3 {
     font-family: "Lora", "Lato", sans-serif;
+}
+
+.pages {
+    color: red;
+}
+
+.pages a {
+    color: red;
+    font-weight: 800;
+}
+
+.recipe-description {
+    font-weight: 600;
 }
